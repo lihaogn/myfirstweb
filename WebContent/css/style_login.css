@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+body{background:url(../src/login_background.jpg) no-repeat; background-size:100%;}
+
+
+/* 登陆框 */
+#main-login{float:right; margin:10% 10% 0 0; width:350px; }
+	/**/
+	.slogn{color:white; margin-bottom:30px;}
+	.slogn h1{ text-align:center; font:sans-serif;}
+	/* div */
+	.text,.pwd{overflow:hidden; margin-bottom:50px; background-color:#fff;width:350px;}
+	/* 输入框样式 */
+	input[type="text"],input[type="password"]{padding:15px; font-size:16px;width:270px; border:none; margin:0;border-left:2px dotted #CCC; float:right; outline:none;}
+
+	/* 按钮样式 */
+	input[type="submit"]{padding:10px; font:18px "微软雅黑"; width:250px; border-radius:8px; border:0px; margin:0 50px; text-align:center; letter-spacing:5px;}
+	input[type="submit"]:hover{color:#FFF; background:#999;}
+	/**/
+	.user_icon{ position:absolute;display:inline-block;clip: rect(0px 24px 20px 0px); margin:15px 0 0 18px;}
+	.lock_icon{ position:absolute;display:inline-block;clip: rect(0px 48px 20px 24px); margin:15px 0 0 -16px;}

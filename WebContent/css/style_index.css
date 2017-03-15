@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+/*  font : 是否斜体 字体粗细 字体大小/行高 字体样式
+	background: color image repeat attachment position*/
+*{margin:0; padding:0;}
+body{background-color:#F0F0F0;}
+/* 头部的div */
+.header{position:relative; margin-bottom:10px;}
+/* 头部的文字 */
+p.top{margin:10px 10px 10px 30px;font: 36px "微软雅黑";}
+	p.top span{font:italic 24px "微软雅黑";}
+	/* 头像 */
+	#touxiang{margin:0 10px 10px 32px; vertical-align:text-top; border:1px solid black; display:inline-block;}
+	/* 用户名 */
+	.t_name{font-size:18px; color:blue;position:absolute;left:140px;top:75px;}
+	/* 个性签名 */
+	p.words{position:absolute;left:150px;top:120px;}
+/*===========================================================*/
+/* 顶部菜单栏 */	
+ul.top{list-style:none; overflow:hidden;padding:0 25px; background-color:#0C6;}
+	ul.top>li{float:left; margin-left:10px;}
+	ul.top>li>a{text-decoration:none;color:white; font-weight:bold; display:block; text-align:center; width:90px; padding:10px 5px;}
+	ul.top a:hover{background:#0C3;}
+/*===========================================================*/
+	/* 顶部菜单的子菜单 */  
+	.subul1,.subul2,.subul3,.subul4,.subul5,.subul6,.subul7,.subul8{display:none;position:absolute; list-style-type:none; background:#DFDFDF; z-index:1;}
+	ul.top ul a{ display:block;padding:10px;color:#333; text-decoration:none; }
+	ul.top ul a:hover{background:#999;}
+	ul.top>li:hover ul{display:block;}
+	/* 上面这句替代下面 
+	/*.top_li1:hover .subul1{display:block;}
+	.top_li2:hover .subul2{display:block;}
+	.top_li3:hover .subul3{display:block;}
+	.top_li4:hover .subul4{display:block;}
+	.top_li5:hover .subul5{display:block;}
+	.top_li6:hover .subul6{display:block;}
+	.top_li7:hover .subul7{display:block;}
+	.top_li8:hover .subul8{display:block;}
+/*===========================================================*/
+/* 左边菜单栏 */	
+.sider_left{ float:left; margin-top:10px;}
+/* 标题栏 */
+.li_title{ background:#DFDFDF; width:133px; font-weight:bold; color:#666;border:3px solid #FFF; padding:10px 0; text-indent:13px; margin-left:2px; margin-bottom:5px; font-family:"微软雅黑"; letter-spacing:5px; border-radius:10px;}
+ul.left{margin:0px 0 10px 0; list-style-type:none; width:150px; border:#999;}
+	ul.left li{margin:0px 10px 0px 5px;border-bottom:1px solid #CCC;background-color:#DFDFDF;}
+	ul.left a{text-decoration:none; font-weight:bold; color:#333; display:block; padding:10px 0; text-indent:15px;}
+	ul.left a:hover{background:#999;}
+/*===========================================================*/
+/* 主体 包括左边菜单栏和中间主体*/
+.wrap{overflow:hidden; width:1300px; margin:20px auto;}
+	.mainbody{float:right;width:1140px; margin-top:10px;overflow:hidden; border:1px solid #CCC; background:white; padding-bottom:10px;}
+	.mainbody>div{width:366px;margin:10px 0 0 10px;float:left; opacity:0.4;}
+	.mainbody>div:hover{opacity:1;}
+	/*	.linux{ width:366px;margin:10px 0 0 10px;float:left;}
+		.java{width:366px;margin:10px 0 0 10px;float:left;}
+		.c{width:366px;margin:10px 0 0 10px;float:left;}
+		.html{width:366px;margin:10px 0 0 10px;float:left;}
+		.js{width:366px;margin:10px 0 0 10px;float:left;}
+		.php{width:366px;margin:10px 0 0 10px;float:left;}
+		.ad{width:366px;margin:10px 0 10px 10px;float:left;}
+		.atc{width:366px;margin:10px 0 10px 10px;float:left;}
+		.else{width:366px;margin:10px 0 10px 10px;float:left;}*/
+		.mainbody img{margin:auto; display:block;border:1px solid #CCC;}
+/*===========================================================*/
+/* 底部 */
+.footer{text-align:center;margin:10px auto;}
